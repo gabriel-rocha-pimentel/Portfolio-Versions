@@ -26,15 +26,9 @@ function End() {
                         </p>
                     </article>
                     
-                    {/* Se for um link interno */}
-                    <Link className='about-btn' to="/contatos">
+                    <Link className='about-btn' to="https://gabriel-rocha-pimentel.netlify.app/contatos">
                         <button className='btn' id="btn-footer">Começar Agora</button>
                     </Link>
-                    
-                    {/* Se for um link externo */}
-                    {/* <a className='about-btn' href="URL EXTERNA">
-                        <button className='btn' id="btn-footer">Começar Agora</button>
-                    </a> */}
                 </article>
             </section>
             <section className='contact-img'>

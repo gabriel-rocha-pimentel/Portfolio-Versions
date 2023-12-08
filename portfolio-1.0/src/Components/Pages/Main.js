@@ -47,7 +47,7 @@ function Main() {
                         </article>
                     </Link>
 
-                    <Link className='box-cards boxCard-3' to="/contatos">
+                    <Link className='box-cards boxCard-3' to="https://gabriel-rocha-pimentel.netlify.app/contatos">
                         <article className='card card-3'>
                             <article className='title-card title-values'>
                                 <h2>Fazer Orçamento</h2>
@@ -80,7 +80,7 @@ function Main() {
                         </article>
                     </article>
 
-                    <Link className='box-cards boxCard-5' to="/portfolio">
+                    <Link className='box-cards boxCard-5' to="https://gabriel-rocha-pimentel.netlify.app/portfolio">
                         <article className='card card-5 title-card'>
                             <h2>Ver Todos os Projetos</h2>
                             < SlArrowRightCircle className='' size={50} color="#ffffff" />
@@ -88,7 +88,7 @@ function Main() {
                     </Link>
 
 
-                    <Link target='_blank' className='box-cards boxCard-6' to="">
+                    <Link target='_blank' className='box-cards boxCard-6' to="#">
                         <article className='card card-6'>
                             <article className='title-card title-projects'>
                                 <h2> </h2>
@@ -96,7 +96,7 @@ function Main() {
                         </article>
                     </Link>
 
-                    <Link target='_blank' className='box-cards boxCard-7' to="">
+                    <Link target='_blank' className='box-cards boxCard-7' to="#">
                         <article className='card card-7'>
                             <article className='title-card title-projects'>
                                 <h2> </h2>
@@ -104,7 +104,7 @@ function Main() {
                         </article>
                     </Link>
 
-                    <Link target='_blank' className='box-cards boxCard-8' to="">
+                    <Link target='_blank' className='box-cards boxCard-8' to="#">
                         <article className='title-card card card-8'>
                             <h2>Tecnologias</h2>
 
