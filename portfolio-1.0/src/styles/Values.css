@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* VARIÁVEIS */
+.container-values {
+  width: 100%;
+  height: 100vh;
+  background-color: #ECF8E5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+  text-align: center;
+}
+.container-values .boxImage-values {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-values .boxImage-values .img-values {
+  width: 25%;
+}
+.container-values .values-text {
+  width: 75%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-values .values-text h2 {
+  font-size: 3em;
+  font-family: "Open Sans", Arial;
+  font-weight: 400;
+  color: #347571;
+}
+.container-values .values-text h2 span {
+  color: #5EC57E;
+}
+.container-values .btn-values {
+  width: 25%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=Values.css.map */

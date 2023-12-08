@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* VARIÁVEIS */
+.container-main {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-main .box-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container-main .box-main .container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  height: 50%;
+  align-items: flex-start;
+  align-content: center;
+  margin: 20em 0;
+}
+.container-main .box-main .container-cards .box-cards {
+  width: 25%;
+  display: flex;
+  align-items: stretch;
+  text-decoration: none;
+}
+.container-main .box-main .container-cards .box-cards article.title-card h2 {
+  font-weight: 400;
+  font-family: "Open Sans", Arial;
+  color: #347571;
+}
+.container-main .box-main .container-cards .box-cards .icons-free {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: stretch;
+}
+.container-main .box-main .container-cards .box-cards .card-1,
+.container-main .box-main .container-cards .box-cards .card-4 {
+  height: 55%;
+}
+.container-main .box-main .container-cards .box-cards .card-2,
+.container-main .box-main .container-cards .box-cards .card-3,
+.container-main .box-main .container-cards .box-cards .card-5,
+.container-main .box-main .container-cards .box-cards .card-6,
+.container-main .box-main .container-cards .box-cards .card-7,
+.container-main .box-main .container-cards .box-cards .card-8 {
+  height: 90%;
+}
+.container-main .box-main .container-cards .box-cards .card {
+  width: 100%;
+  margin: 1em;
+  border-radius: 10px;
+  padding: 1em;
+  box-sizing: border-box;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #00F39A;
+}
+.container-main .box-main .container-cards .box-cards .card .medias-sociais {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+.container-main .box-main .container-cards .box-cards .card .medias-sociais a {
+  width: auto;
+}
+.container-main .box-main .container-cards .box-cards .card .linkedin-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  transform: translateY(-55px);
+}
+.container-main .box-main .container-cards .box-cards .card .linkedin-icon .linkedin {
+  border: solid #fff 2px;
+  border-radius: 50%;
+  background-color: #5EC57E;
+}
+.container-main .box-main .container-cards .box-cards .card .tech-icons {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: stretch;
+}
+.container-main .box-main .container-cards .box-cards .card img {
+  width: 100%;
+}
+.container-main .box-main .container-cards .boxCard-1,
+.container-main .box-main .container-cards .boxCard-2,
+.container-main .box-main .container-cards .boxCard-3,
+.container-main .box-main .container-cards .boxCard-4 {
+  height: 75%;
+}
+.container-main .box-main .container-cards .boxCard-6,
+.container-main .box-main .container-cards .boxCard-7 {
+  height: 95%;
+}
+.container-main .box-main .container-cards .boxCard-5,
+.container-main .box-main .container-cards .boxCard-8 {
+  transform: translateY(-125px);
+  height: 125%;
+}
+
+/*# sourceMappingURL=Main.css.map */

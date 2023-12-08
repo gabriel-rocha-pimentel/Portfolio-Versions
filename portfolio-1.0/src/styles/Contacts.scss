@@ -1,0 +1,66 @@
+/* VARIÁVEIS */
+$color-white: #ffffff;
+$color-black: #000000;
+$color-green-clean: #ECF8E5;
+$color-green-medial: #5EC57E;
+$color-green-strong: #347571;
+
+.container-contato {
+    width: 100%;
+    height: 100vh;
+    font-family: "Open Sans", Arial;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .box-form {
+        width: 100%;
+        height: 100%;
+        padding: 1em;
+        background-color: $color-green-strong;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            width: 75%;
+            font-size: 2em;
+            font-weight: 400;
+            color: $color-green-medial;
+        }
+
+        .form-contact {
+            width: 75%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .input {
+                width: 100%;
+                height: auto;
+                color: $color-black;
+                display: flex;
+                flex-direction: row;
+                margin: 1em 0em;
+                padding: 0.8em;
+                font-size: 1em;
+                font-family: 'Open Sans', Arial;
+                border: none;
+                border-bottom: solid 5px $color-green-strong;
+                border-radius: 10px;
+                outline: none;
+                background-color: $color-green-clean;
+                transition: all;
+
+                &:hover {
+                    outline: inset 1px $color-green-medial;
+                }
+            }
+        }
+    }
+}

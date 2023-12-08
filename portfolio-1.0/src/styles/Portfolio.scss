@@ -1,0 +1,86 @@
+/* CORE COLORS */
+$color-white: #ffffff;
+$color-black: #000000;
+$color-green-clean: #ECF8E5;
+$color-green-medial: #5EC57E;
+$color-green-strong: #347571;
+
+.container-portfolio {
+    height: auto;
+    background-color: $color-green-clean;
+    width: 100%;
+    font-family: "Open Sans", Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 22px;
+    z-index: 0;
+    position: relative;
+}
+
+.container-cards {
+    width: 100%;
+    padding: 1em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 0;
+
+    .card-box {
+        width: 375px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin: 25px;
+    
+        .box-buttons {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            z-index: 2;
+
+            .btn-portfolio {
+                width: 75%;
+                height: auto;
+                border: none;
+                font-family: "Open Sans", Arial;
+                font-size: 0.8em;  
+                font-weight: 600;
+                padding: 0.8em;
+                border-radius: 5px;
+                color: $color-green-strong;
+                background-color: $color-green-clean;
+                cursor: pointer;
+                transition: 1s all;
+
+                &:hover {
+                    transform: scale(1.1);
+                    box-shadow: $color-green-strong 0px 2px 4px, $color-green-medial 0px 5px 5px -3px, $color-green-clean 0px -3px 0px inset;
+                }
+            }
+        }
+        
+        .img {
+            width: 100%;
+            height: auto;
+            contain: content;
+            border-radius: 10px;
+            z-index: 1;
+            transition: 1.5s all;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: $color-green-strong 0px 2px 4px, $color-green-medial 0px 5px 5px -3px, $color-green-clean 0px -3px 0px inset;
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+/* VARIÁVEIS */
+$color-white: #ffffff;
+$color-black: #000000;
+$color-green-clean: #ECF8E5;
+$color-green-medial: #5EC57E;
+$color-green-strong: #347571;
+
+.container-services {
+    width: 100%;
+    height: 100vh;
+    background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+
+    h2 {
+        font-size: 2.5em;
+        margin-top: 1.5em;
+        color: $color-green-medial;
+        font-family: 'Open Sans', Arial;
+        font-weight: 400;
+    }
+
+    .box-services {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .card-1 {
+            background-color: #F7FDF3;
+        }
+
+        .card-2 {
+            background-color: #ECF8E5;
+        }
+
+        .card-3 {
+            background-color: #DCF4CE;
+        }
+
+        .services-card {
+            width: 100%;
+            height: 100%;
+            padding: 2em 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .content-image {
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 25%;
+                    height: auto;
+                }
+            }
+
+            .content-card {
+                width: auto;
+                height: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                justify-content: space-evenly;
+                padding: 1em;
+    
+                h3 {
+                    font-family: 'Open Sans', Arial;
+                    color: $color-green-medial;
+                    font-size: 1.5em;
+                    font-weight: 400;
+                    letter-spacing: 2px;
+                }
+    
+                p {
+                    font-family: 'Open Sans', Arial;
+                    color: $color-green-strong;
+                    font-size: 1.2em;
+    
+                    span {
+                        color: $color-green-medial;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* VARIÁVEIS */
+.container-contato {
+  width: 100%;
+  height: 100vh;
+  font-family: "Open Sans", Arial;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-contato .box-form {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  background-color: #347571;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-contato .box-form h2 {
+  width: 75%;
+  font-size: 2em;
+  font-weight: 400;
+  color: #5EC57E;
+}
+.container-contato .box-form .form-contact {
+  width: 75%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.container-contato .box-form .form-contact .input {
+  width: 100%;
+  height: auto;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0em;
+  padding: 0.8em;
+  font-size: 1em;
+  font-family: "Open Sans", Arial;
+  border: none;
+  border-bottom: solid 5px #347571;
+  border-radius: 10px;
+  outline: none;
+  background-color: #ECF8E5;
+  transition: all;
+}
+.container-contato .box-form .form-contact .input:hover {
+  outline: inset 1px #5EC57E;
+}
+
+/*# sourceMappingURL=Contacts.css.map */

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-green-clean: #ECF8E5;
+$color-green-medial: #5EC57E;
+$color-green-strong: #347571;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .container-home,
+  .container-contato {
+    #bar {
+      position: absolute;
+    }
+  }
+  
+  header.container-home {
+    flex-direction: column;
+
+    section.box-title {
+      flex-direction: column;
+
+      article.title-description {
+        align-items: center;
+
+        h1 {
+          font-size: 1.5em;
+          text-align: center;
+        }
+      }
+
+      .img-document {
+        display: none;
+      }
+    }
+  }
+
+  section.container-about {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    margin: 2em 0;
+
+    img.img-desktop {
+      width: 50%;
+    }
+
+    article.box-text {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      margin: 2em 0;
+      padding: 0 1em;
+
+      h2 {
+        font-size: 2em;
+      }
+
+      p {
+        text-align: start;
+        margin: 1em 0;
+      }
+    }
+  }
+
+  section.container-values {
+    .boxImage-values .img-values {
+      width: 100%;
+    }
+
+    .values-text h2 {
+      font-size: 1.5em;
+    }
+
+    .btn-values {
+      width: 75%;
+    }
+  }
+
+  section.container-services {
+    height: auto;
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    article.box-services {
+      margin: 2em 0;
+      flex-direction: column;
+
+      article.services-card {
+        div.content-image {
+          padding: 1em;
+        }
+
+        div img {
+          width: 150px;
+        }
+
+        div.content-card {
+          width: 100%;
+
+          p {
+            margin: 1em 0;
+            width: 75%;
+          }
+        }
+      }
+    }
+  }
+
+  main.container-main {
+    height: auto;
+
+    section.box-main {
+      margin: 1em 0;
+
+      section.container-cards {
+        flex-direction: column;
+        width: 100%;
+        margin: 1em 0;
+
+        .card-box {
+          background-color: #000000 !important;
+        }
+
+        article, a.box-cards {
+          width: 100% !important;
+          display: flex;
+          align-items: center;
+          transform: none;
+
+          .title-card h2 {
+            margin: 1em 0;
+          }
+
+          article.tech-icons {
+            justify-content: space-around;
+            padding: 1em;
+
+            .icon-react {
+              size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer.container-footer {
+    flex-direction: column;
+    margin: 1em 0;
+
+    section.box-contact {
+      width: 75%;
+      height: auto;
+
+      article.content-contact {
+        align-items: flex-start;
+
+        article.about-contact {
+          margin: 2em 0;
+          width: 100%;
+          height: auto;
+          align-items: center;
+        }
+
+        a.about-btn {
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  a .btn {
+    margin: 1em 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  main.container-main {
+    height: auto;
+
+    section.box-main {
+      margin: 1em 0;
+
+      section.container-cards {
+        flex-direction: column;
+        width: 100%;
+        margin: 1em 0;
+
+        article, a.box-cards {
+          width: 100% !important;
+          display: flex;
+          align-items: center;
+          transform: none;
+
+          .title-card h2 {
+            margin: 1em 0;
+          }
+
+          article.tech-icons {
+            justify-content: space-around;
+            padding: 1em;
+
+            .icon-react {
+              width: 50px;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Botões/Links
+.btn {
+  background-color: $color-green-medial;
+  padding: 1em;
+  margin: 1em 0em;
+  width: 75%;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: $color-white;
+  font-size: 1em;
+  transition: 1s all;
+
+  &:hover {
+    border-radius: 38px;
+  }
+}
+
+a {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+}

@@ -1,0 +1,84 @@
+/* VARIÁVEIS */
+$color-white: #ffffff;
+$color-black: #000000;
+$color-green-clean: #ECF8E5;
+$color-green-medial: #5EC57E;
+$color-green-strong: #347571;
+
+.container-footer {
+    width: 100%;
+    height: 100vh;
+    background-color: $color-green-clean;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+    .box-contact {
+        width: 45%;
+        height: 75%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+        #footer-logo {
+            display: flex;
+            align-items: center;
+            width: 50%;
+        }
+
+        .content-contact {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-evenly;
+
+            .about-contact {
+                width: 75%;
+                height: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                font-family: "Open Sans", Arial;
+
+                h2 {
+                    color: $color-green-medial;
+                    font-size: 2.5em;
+                    font-weight: 400;
+                }
+
+                p {
+                    color: $color-green-strong;
+                    font-size: 1.5em;
+                    font-weight: 800;
+                }
+            }
+        }
+
+        .about-btn {
+            width: 75%;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .contact-img {
+        width: 50%;
+        display: flex;
+        height: auto;
+        justify-content: center;
+
+        .imgPeople-work {
+            width: 75%;
+            height: 100%;
+        }
+    }
+}
