@@ -22,20 +22,20 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route
-          path="https://gabriel-rocha-pimentel.netlify.app/"
+          path="*"
           element={
             <>
-              <Home />
-              <About />
-              <Values />
-              <Services />
-              <Main />
-              <End />
+              <Home to="/" />
+              <About to="/" />
+              <Values to="/" />
+              <Services to="/" />
+              <Main to="/" />
+              <End to="/" />
             </>
           }
         />
-        <Route path="https://gabriel-rocha-pimentel.netlify.app/portfolio" element={<Portfolio />} />
-        <Route path="https://gabriel-rocha-pimentel.netlify.app/contatos" element={<Contacts />} />
+        <Route path="*" element={<Portfolio to="/portfolio" />} />
+        <Route path="*" element={<Contacts to="/contatos" />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
