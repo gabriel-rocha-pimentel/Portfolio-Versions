@@ -22,20 +22,20 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route
-          path="*"
+          path="/"
           element={
             <>
-              <Home to="/" />
-              <About to="/" />
-              <Values to="/" />
-              <Services to="/" />
-              <Main to="/" />
-              <End to="/" />
+              <Home />
+              <About />
+              <Values />
+              <Services />
+              <Main />
+              <End />
             </>
           }
         />
-        <Route path="*" element={<Portfolio to="/portfolio" />} />
-        <Route path="*" element={<Contacts to="/contatos" />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contatos" element={<Contacts />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
