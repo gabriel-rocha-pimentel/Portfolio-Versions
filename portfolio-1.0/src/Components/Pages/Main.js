@@ -47,7 +47,7 @@ function Main() {
                         </article>
                     </Link>
 
-                    <Link className='box-cards boxCard-3' to="https://gabriel-rocha-pimentel.netlify.app/contatos">
+                    <Link className='box-cards boxCard-3' to="/contatos">
                         <article className='card card-3'>
                             <article className='title-card title-values'>
                                 <h2>Fazer Orçamento</h2>
@@ -80,7 +80,7 @@ function Main() {
                         </article>
                     </article>
 
-                    <Link className='box-cards boxCard-5' to="https://gabriel-rocha-pimentel.netlify.app/portfolio">
+                    <Link className='box-cards boxCard-5' to="/portfolio">
                         <article className='card card-5 title-card'>
                             <h2>Ver Todos os Projetos</h2>
                             < SlArrowRightCircle className='' size={50} color="#ffffff" />

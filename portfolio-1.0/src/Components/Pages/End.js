@@ -26,7 +26,7 @@ function End() {
                         </p>
                     </article>
                     
-                    <Link className='about-btn' to="https://gabriel-rocha-pimentel.netlify.app/contatos">
+                    <Link className='about-btn' to="/contatos">
                         <button className='btn' id="btn-footer">Começar Agora</button>
                     </Link>
                 </article>

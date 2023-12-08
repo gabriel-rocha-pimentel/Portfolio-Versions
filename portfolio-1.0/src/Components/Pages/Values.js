@@ -19,7 +19,7 @@ function Values() {
                 </h2>
             </article>
 
-            <Link to="https://gabriel-rocha-pimentel.netlify.app/contatos">
+            <Link to="/contatos">
                 <button className='btn btn-values'>Agendar Reunião</button>
             </Link>
         </section>

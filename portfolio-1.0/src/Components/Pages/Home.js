@@ -18,7 +18,7 @@ const Home = () => {
               <span> Full-Stack</span> Freelancer
             </h1>
             
-            <Link to="https://gabriel-rocha-pimentel.netlify.app/contatos">
+            <Link to="/contatos">
               <button className="btn">Vamos Negociar</button>
             </Link>
           </article>

@@ -26,15 +26,15 @@ const Menu = () => {
       <nav className="menu" id={`${menuOpen ? 'open' : ''}`}>
         <ul>
           <li className="box-linkMenu">
-            <Link to="https://gabriel-rocha-pimentel.netlify.app/" className="link-menu">Home</Link>
+            <Link to="/" className="link-menu">Home</Link>
           </li>
 
           <li className="box-linkMenu">
-            <Link to="https://gabriel-rocha-pimentel.netlify.app/portfolio" className="link-menu">Portfólio</Link>
+            <Link to="/portfolio" className="link-menu">Portfólio</Link>
           </li>
 
           <li className="box-linkMenu">
-            <Link to="https://gabriel-rocha-pimentel.netlify.app/contatos" className="link-menu">Contatos</Link>
+            <Link to="/contatos" className="link-menu">Contatos</Link>
           </li>
         </ul>
       </nav>
