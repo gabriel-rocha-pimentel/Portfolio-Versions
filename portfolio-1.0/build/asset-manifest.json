@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e99c900e.css",
+    "main.js": "/static/js/main.abe00742.js",
+    "static/media/onePage-img.png": "/static/media/onePage-img.39f489adc9120bf21faa.png",
+    "static/media/acordion-img.png": "/static/media/acordion-img.76d2272e494fb491754d.png",
+    "static/media/huddlePage-img.png": "/static/media/huddlePage-img.3a5b927b626fc3d9daf0.png",
+    "static/media/webPage02.jpg": "/static/media/webPage02.ca5c9f299774ef183d0e.jpg",
+    "static/media/linkPage-img.png": "/static/media/linkPage-img.5b66e56e8588f8454b32.png",
+    "static/media/cardProduct-img.png": "/static/media/cardProduct-img.90b74b99f398c51694c2.png",
+    "static/media/webPage01.png": "/static/media/webPage01.78d89672340acb884b2c.png",
+    "static/media/webPage05.png": "/static/media/webPage05.06488f3414d81f2553b8.png",
+    "static/media/nftCard-img.png": "/static/media/nftCard-img.9371e2e958ad7518d8b6.png",
+    "static/media/summary-img.png": "/static/media/summary-img.7def3dec715fdc5cc041.png",
+    "static/media/webPage06.png": "/static/media/webPage06.db1f83c00a9626daea7d.png",
+    "static/media/webPage03-1.png": "/static/media/webPage03-1.0f0c98fc2e3ad677806c.png",
+    "static/media/oldCalculator-img.png": "/static/media/oldCalculator-img.5c1204213507fe5f7155.png",
+    "static/media/webPage03-3.png": "/static/media/webPage03-3.a2b7ea382a5ccf67e710.png",
+    "static/media/webPage03-2.png": "/static/media/webPage03-2.09e776f636c7437db6d5.png",
+    "index.html": "/index.html",
+    "main.e99c900e.css.map": "/static/css/main.e99c900e.css.map",
+    "main.abe00742.js.map": "/static/js/main.abe00742.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e99c900e.css",
+    "static/js/main.abe00742.js"
+  ]
+}
